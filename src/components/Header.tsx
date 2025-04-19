@@ -32,9 +32,9 @@ const Header = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.1 }}
         >
-          <a href="#about" className="nav-link">about me</a>
-          <a href="#projects" className="nav-link">projects</a>
-          <a href="#resume" className="nav-link">resume</a>
+          <a href="#about" className="nav-link uppercase">About</a>
+          <a href="#projects" className="nav-link uppercase">Projects</a>
+          <a href="/Hitanshu Parekh.pdf" target="_blank" rel="noopener noreferrer" className="nav-link uppercase">Resume</a>
         </motion.nav>
       </div>
     </header>

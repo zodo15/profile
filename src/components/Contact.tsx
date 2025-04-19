@@ -4,7 +4,7 @@ import { Mail, Linkedin } from 'lucide-react';
 
 const Resume = () => {
   return (
-    <section id="resume" className="py-24 px-6 md:px-12 lg:px-24 bg-white">
+    <section id="contact" className="py-16 px-6 md:px-12 lg:px-24 bg-white">
       <div className="max-w-4xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 20 }}

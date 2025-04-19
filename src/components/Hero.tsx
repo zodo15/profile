@@ -42,7 +42,7 @@ const Hero = () => {
             Hi, I am Hitanshu.
           </motion.span>
           <motion.span 
-            className="block text-portfolio-accent" 
+            className="block text-portfolio-accent tracking-wide leading-tight" 
             initial={{ y: 100 }}
             animate={{ y: 0 }}
             transition={{ duration: 0.8, delay: 0.3, ease: [0.16, 1, 0.3, 1] }}
