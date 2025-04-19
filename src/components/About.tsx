@@ -29,39 +29,6 @@ const About = () => {
           
           <p>I'm passionate about turning ideas into MVPs, understanding user needs, and building clean, modern interfaces. I'm now looking to grow as a Product Manager — learning from experienced teams, contributing to thoughtful product decisions, and helping build tools that people actually love to use.</p>
         </motion.div>
-
-        <motion.div
-          className="mt-16"
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
-          viewport={{ once: true, margin: "-100px" }}
-          transition={{ duration: 0.8, delay: 0.3 }}
-        >
-          <h3 className="text-2xl font-display font-bold mb-8">Product Management Skills</h3>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-12">
-            <div className="portfolio-card">
-              <ul className="list-disc list-inside space-y-2 text-lg">
-                <li>User research</li>
-                <li>Product strategy and roadmapping</li>
-                <li>User story writing and prioritization</li>
-                <li>Wireframing and prototyping</li>
-                <li>Data analysis and metrics</li>
-              </ul>
-            </div>
-          </div>
-
-          <h3 className="text-2xl font-display font-bold mb-8">Technical Skills</h3>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            <div className="portfolio-card">
-              <ul className="list-disc list-inside space-y-2 text-lg">
-                <li>No-code tool expertise (Lovable, Bolt, Cursor)</li>
-                <li>Basic understanding of development processes</li>
-                <li>SQL fundamentals</li>
-                <li>Analytics tools (Mixpanel)</li>
-              </ul>
-            </div>
-          </div>
-        </motion.div>
       </div>
     </section>
   );
