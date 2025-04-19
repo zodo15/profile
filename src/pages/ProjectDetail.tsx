@@ -138,6 +138,34 @@ const ProjectDetail = () => {
                       ))}
                     </div>
                   </div>
+                  <Separator className="my-4" />
+                  <div>
+                    <h3 className="text-lg font-semibold mb-2">TECH STACK</h3>
+                    {project.techStack.frontend.length > 0 && (
+                      <div className="mb-3">
+                        <h4 className="text-sm font-medium mb-1">Frontend</h4>
+                        <div className="flex flex-wrap gap-2">
+                          {project.techStack.frontend.map((tech, index) => (
+                            <span key={index} className="px-3 py-1 bg-gray-100 rounded-full text-sm">
+                              {tech}
+                            </span>
+                          ))}
+                        </div>
+                      </div>
+                    )}
+                    {project.techStack.backend.length > 0 && (
+                      <div>
+                        <h4 className="text-sm font-medium mb-1">Backend</h4>
+                        <div className="flex flex-wrap gap-2">
+                          {project.techStack.backend.map((tech, index) => (
+                            <span key={index} className="px-3 py-1 bg-gray-100 rounded-full text-sm">
+                              {tech}
+                            </span>
+                          ))}
+                        </div>
+                      </div>
+                    )}
+                  </div>
                 </CardContent>
               </Card>
             </motion.div>
