@@ -69,11 +69,12 @@ const About = () => {
               <h4 className="text-xl font-semibold mb-4">Technical</h4>
               <div className="grid grid-cols-2 gap-4">
                 {[
-                  'React',
                   'Figma',
                   'Git',
                   'SQL',
-                  'Mixpanel'
+                  'Mixpanel',
+                  'Excel',
+                  'Supabase'
                 ].map((skill) => (
                   <div
                     key={skill}
