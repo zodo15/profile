@@ -5,6 +5,14 @@ import { Utensils, Users, Gamepad } from 'lucide-react';
 
 const projects = [
   {
+    title: "Taco Task",
+    description: "A simple, fast, and delightfully intuitive task manager",
+    demoLink: "https://packy-omega.vercel.app/",
+    readMoreLink: "/projects/taco-task",
+    icon: Utensils,
+    customImage: "/taco_task.png"
+  },
+  {
     title: "Meal Mate",
     description: "A meal assistance app",
     demoLink: "https://meal-matee-git-main-zodo15s-projects.vercel.app",
@@ -35,6 +43,7 @@ const projects = [
     icon: Utensils,
     customImage: "/swiggy.svg"
   }
+  
 ];
 
 const Projects = () => {

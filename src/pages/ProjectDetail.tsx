@@ -23,11 +23,11 @@ const projectsData = {
       frontend: ['React', 'TypeScript', 'CSS'],
       backend: ['Supabase (Authentication & Database)']
     },
-    image: '/event-flow-laptop.png'
+    image: '/event-flow.png'
   },
   'vibes': {
     title: 'Vibes',
-    about: 'A fun, mobile-friendly party game that brings a fresh twist to classic games. Designed with an engaging UI, it encourages social interaction through fast-paced, interactive challenges — perfect for hangouts and parties.',
+    about: 'A social party game that brings people together through fun and engaging conversation prompts. Perfect for breaking the ice, deepening connections, or just having a good time with friends and family.',
     toolsUsed: ['Bolt', 'Windsurf', 'Claude'],
     techStack: {
       frontend: ['React', 'TypeScript', 'Tailwind CSS'],
@@ -44,6 +44,16 @@ const projectsData = {
       backend: []
     },
     image: '/swiggy-case-screenshot.jpg'
+  },
+  'taco-task': {
+    title: 'Taco Task',
+    about: 'A simple, fast, and delightfully intuitive task manager designed to help users organize their daily tasks efficiently. With a clean interface and smooth interactions, Taco Task makes task management a breeze while keeping users engaged and productive.',
+    toolsUsed: ['React', 'TypeScript', 'Tailwind CSS'],
+    techStack: {
+      frontend: ['React', 'TypeScript', 'Tailwind CSS'],
+      backend: []
+    },
+    image: '/taco-task.png'
   }
 };
 const ProjectDetail = () => {

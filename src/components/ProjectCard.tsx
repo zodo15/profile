@@ -33,6 +33,7 @@ const ProjectCard = ({ title, description, index, demoLink, readMoreLink, Icon, 
                    customImage && customImage.includes('event-flow') ? '#E6E6FA' : 
                    customImage && customImage.includes('vibes') ? '#4B0082' : 
                    customImage && customImage.includes('swiggy') ? '#FF6B00' : 
+                   customImage && customImage.includes('taco') ? '#FFE680' :
                    'rgb(229 231 235)'
       }}>
         <div className="absolute inset-0 bg-gradient-to-br from-gray-300 to-gray-100 bg-opacity-80" style={{
@@ -40,6 +41,7 @@ const ProjectCard = ({ title, description, index, demoLink, readMoreLink, Icon, 
                      customImage && customImage.includes('event-flow') ? 'linear-gradient(to bottom right, #E6E6FA, #D8BFD8)' : 
                      customImage && customImage.includes('vibes') ? 'linear-gradient(to bottom right, #4B0082, #8A2BE2)' : 
                      customImage && customImage.includes('swiggy') ? 'linear-gradient(to bottom right, #FF6B00, #FF8C42)' : 
+                     customImage && customImage.includes('taco') ? 'linear-gradient(to bottom right, #FFFACD, #FFE680)' :
                      'linear-gradient(to bottom right, rgb(209 213 219), rgb(243 244 246))'
         }} />
         <div className="absolute inset-0 bg-[linear-gradient(45deg,rgba(0,0,0,0.02)25%,transparent_25%,transparent_50%,rgba(0,0,0,0.02)50%,rgba(0,0,0,0.02)75%,transparent_75%,transparent)] bg-[length:10px_10px]" />
